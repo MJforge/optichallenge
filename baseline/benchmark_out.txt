@@ -1,0 +1,46 @@
+# Benchmark  timelimit=60s  instances=19
+  prob_1     file=prob_18.json  bays=2 blk= 100 feas=True obj=         33217 (o1=0.0 o2=231 o3=158.0) t=4.5s
+  prob_2     file=prob_3.json   bays=3 blk= 100 feas=True obj=          6230 (o1=0.0 o2=38 o3=39.0) t=4.8s
+  prob_3     file=prob_16.json  bays=3 blk= 100 feas=True obj=         72480 (o1=0.0 o2=1218 o3=402.0) t=3.4s
+  prob_4     file=prob_8.json   bays=2 blk= 100 feas=True obj=        194572 (o1=2.0 o2=48 o3=752.0) t=3.3s
+  prob_5     file=prob_10.json  bays=3 blk= 150 feas=True obj=         79132 (o1=0.0 o2=1576 o3=454.0) t=5.9s
+  prob_6     file=prob_13.json  bays=3 blk= 150 feas=True obj=        140844 (o1=0.0 o2=1842 o3=853.0) t=8.7s
+  prob_7     file=prob_11.json  bays=3 blk= 150 feas=True obj=         94258 (o1=0.0 o2=1144 o3=575.0) t=6.4s
+  prob_8     file=prob_9.json   bays=2 blk= 150 feas=True obj=         11252 (o1=0.0 o2=2413 o3=8.0) t=4.4s
+  prob_9     file=prob_5.json   bays=3 blk= 200 feas=True obj=        174163 (o1=1.0 o2=1416 o3=1025.0) t=7.8s
+  prob_10    file=prob_17.json  bays=4 blk= 200 feas=True obj=        144562 (o1=2.0 o2=1068 o3=812.0) t=6.8s
+  prob_11    file=prob_4.json   bays=4 blk= 200 feas=True obj=        194723 (o1=2.0 o2=786 o3=1079.0) t=9.3s
+  prob_12    file=prob_7.json   bays=4 blk= 200 feas=True obj=        145950 (o1=0.0 o2=1394 o3=1024.0) t=13.2s
+  prob_13    file=prob_12.json  bays=4 blk= 250 feas=True obj=        249968 (o1=3.0 o2=2229 o3=1376.0) t=12.4s
+  prob_14    file=prob_1.json   bays=4 blk= 250 feas=True obj=        452775 (o1=13.0 o2=788 o3=1637.0) t=15.4s
+  prob_15    file=prob_14.json  bays=4 blk= 250 feas=True obj=         75790 (o1=0.0 o2=3853 o3=425.0) t=14.3s
+  prob_16    file=prob_20.json  bays=4 blk= 250 feas=True obj=         90332 (o1=0.0 o2=1601 o3=619.0) t=10.9s
+  prob_17    file=prob_2.json   bays=4 blk= 300 feas=True obj=         92566 (o1=0.0 o2=4721 o3=554.0) t=14.2s
+  prob_18    file=prob_6.json   bays=4 blk= 300 feas=True obj=        105673 (o1=0.0 o2=2977 o3=705.0) t=19.9s
+  prob_19    file=prob_15.json  bays=4 blk= 300 feas=True obj=         93284 (o1=0.0 o2=3105 o3=608.0) t=17.4s
+
+## Results (markdown)
+
+| name | file | bays | blocks | feasible | objective | obj1 | obj2 | obj3 | time(s) |
+|---|---|---:|---:|:---:|---:|---:|---:|---:|---:|
+| prob_1 | prob_18.json | 2 | 100 | OK | 33217 | 0 | 231 | 158 | 4.5 |
+| prob_2 | prob_3.json | 3 | 100 | OK | 6230 | 0 | 38 | 39 | 4.8 |
+| prob_3 | prob_16.json | 3 | 100 | OK | 72480 | 0 | 1218 | 402 | 3.4 |
+| prob_4 | prob_8.json | 2 | 100 | OK | 194572 | 2 | 48 | 752 | 3.3 |
+| prob_5 | prob_10.json | 3 | 150 | OK | 79132 | 0 | 1576 | 454 | 5.9 |
+| prob_6 | prob_13.json | 3 | 150 | OK | 140844 | 0 | 1842 | 853 | 8.7 |
+| prob_7 | prob_11.json | 3 | 150 | OK | 94258 | 0 | 1144 | 575 | 6.4 |
+| prob_8 | prob_9.json | 2 | 150 | OK | 11252 | 0 | 2413 | 8 | 4.4 |
+| prob_9 | prob_5.json | 3 | 200 | OK | 174163 | 1 | 1416 | 1025 | 7.8 |
+| prob_10 | prob_17.json | 4 | 200 | OK | 144562 | 2 | 1068 | 812 | 6.8 |
+| prob_11 | prob_4.json | 4 | 200 | OK | 194723 | 2 | 786 | 1079 | 9.3 |
+| prob_12 | prob_7.json | 4 | 200 | OK | 145950 | 0 | 1394 | 1024 | 13.2 |
+| prob_13 | prob_12.json | 4 | 250 | OK | 249968 | 3 | 2229 | 1376 | 12.3 |
+| prob_14 | prob_1.json | 4 | 250 | OK | 452775 | 13 | 788 | 1637 | 15.4 |
+| prob_15 | prob_14.json | 4 | 250 | OK | 75790 | 0 | 3853 | 425 | 14.3 |
+| prob_16 | prob_20.json | 4 | 250 | OK | 90332 | 0 | 1601 | 619 | 10.9 |
+| prob_17 | prob_2.json | 4 | 300 | OK | 92566 | 0 | 4721 | 554 | 14.2 |
+| prob_18 | prob_6.json | 4 | 300 | OK | 105673 | 0 | 2977 | 705 | 19.9 |
+| prob_19 | prob_15.json | 4 | 300 | OK | 93284 | 0 | 3105 | 608 | 17.4 |
+
+Feasible: 19/19   CSV: /workspace/baseline/benchmark_results.csv
