@@ -17,6 +17,7 @@ from myalgorithm import algorithm
 from utils import check_feasibility
 
 TIMELIMIT = float(sys.argv[1]) if len(sys.argv) > 1 else 60.0
+OUT_CSV_NAME = sys.argv[2] if len(sys.argv) > 2 else "benchmark_results.csv"
 INSTANCE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 
@@ -72,7 +73,7 @@ def main():
               f"(o1={row['obj1']} o2={row['obj2']} o3={row['obj3']}) t={elapsed:.1f}s",
               flush=True)
 
-    out_csv = os.path.join(os.path.dirname(__file__), "benchmark_results.csv")
+    out_csv = os.path.join(os.path.dirname(__file__), OUT_CSV_NAME)
     with open(out_csv, "w", newline="") as fh:
         wtr = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
         wtr.writeheader()
